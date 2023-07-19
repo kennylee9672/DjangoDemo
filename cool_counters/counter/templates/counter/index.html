@@ -1,0 +1,22 @@
+<a href="{% url 'index' %}">Home</a>
+
+<h1>Hello, this is a simple Django webpage.</h1>
+<p>There have been {{ value }} views.</p>
+
+<h2>Test 1: A-ref Tag</h2>
+<a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+
+<br>
+
+<h2>Test 2: Form Tag</h2>
+
+<form action="/submit/">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "views.py".</p>
